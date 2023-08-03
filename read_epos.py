@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import struct
 
-File = 'R14_09950-v02.pos'
+File = 'YOUR_DATA.epos'
 def read_epos(file):
     with open(file, 'rb') as in_file:
         file_size = os.path.getsize(file)
